@@ -1,0 +1,23 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "React project with CRUD using NodeJS, Express, with PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "on the works"
+  },
+  "keywords": [
+    "CRUD",
+    "Database"
+  ],
+  "author": "Ludy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0"
+  }
+}
