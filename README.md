@@ -1,4 +1,4 @@
-# Sple_Character_Generator
+# React CRUD Project
 
 ReactJS project with CRUD operations involving provinces, cities, and districts in Indonesia.
 
