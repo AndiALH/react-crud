@@ -266,7 +266,7 @@ export default function ProvinceTable() {
   return (
     <>
       <Paper sx={{ width: '100%', minWidth: 330, overflow: 'hidden' }}>
-        <TableContainer sx={{ maxHeight: 500 }}>
+        <TableContainer sx={{ maxHeight: 700 }}>
           <Table stickyHeader aria-label="sticky table">
             <TableHead>
               <TableRow>
@@ -307,7 +307,7 @@ export default function ProvinceTable() {
                           return (
                             <TableCell key={column.id} align={column.align}>
                               {column.id == "delete_item"
-                                ? <Button onClick={() => handleDeleteDialogOpen(row.prov_id, row.prov_name)} variant="outlined" size="small" startIcon={<DeleteForeverIcon />}>Delete</Button>
+                                ? <Button color="error" onClick={() => handleDeleteDialogOpen(row.prov_id, row.prov_name)} variant="outlined" size="small" startIcon={<DeleteForeverIcon />}>Delete</Button>
                                 : <Button onClick={() => handleUpdateDialogOpen(row.prov_id, row.prov_name)} variant="outlined" size="small" startIcon={<ModeEditIcon />}>Update</Button>
                               }
                             </TableCell>
